@@ -1,7 +1,9 @@
-let a = 21;
-let b = 20;
-let cc = (d = a);
-let aa = (e = b);
-let c = d + "" + e;
+let points = 10;
 
-console.log(`_${d}_${(c + "_").repeat(++cc % --aa)} ${++e}_`);
+// Write Your Code Here
+points+=3;
+console.log(points); // 13
+
+// Write Your Code Here
+points-=5;
+console.log(points); // 8;
