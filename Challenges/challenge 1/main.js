@@ -1,3 +1,4 @@
+// Vars and Concat Challenge
 
 let theTitle = ' Elzero',
  theDescription = 'Elzero Web School' , 
