@@ -10,3 +10,4 @@ allArrs = arr1
   .toLowerCase();
   
 console.log(allArrs); // fxy
+
