@@ -1,0 +1,13 @@
+document.getElementById("elzero");
+document.getElementsByClassName("elemnet")[0];
+document.getElementsByTagName("div")[0];
+document.querySelector("#element");
+document.querySelectorAll(".element");
+document.querySelector("div");
+document.querySelector("[name='js']");
+document.querySelectorAll("#elzero")[0];
+document.querySelectorAll(".element")[0];
+document.querySelectorAll("div")[0];
+document.querySelectorAll("[name='js']")[0];
+document.getElementsByTagName("div").item(0);
+document.getElementsByClassName("element").item(0);
