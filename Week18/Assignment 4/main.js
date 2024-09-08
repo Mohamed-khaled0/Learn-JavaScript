@@ -1,16 +1,11 @@
+let counterDiv = document.getElementById('counter');
+let counterValue = parseInt(counterDiv.textContent);
 
-
-
-let elOne = document.querySelector(".one");
-let elTwo = document.querySelector(".two");
-
-elOne.title = elOne.className;
-elTwo.title = elTwo.className;
-
-
-elOne.textContent = elOne.className;
-elTwo.textContent= `${elTwo.className}  ${elTwo.attributes.length}`;
-
-
-console.log(elOne);
-console.log(elTwo);
+let interval = setInterval(() => {
+    counterValue--;
+    counterDiv.textContent = counterValue;
+    if (counterValue === 0) {
+      clearInterval(interval);
+      window.location.href = "https://elzero.org";
+    }
+  }, 1000);

@@ -1,5 +1,20 @@
-
-for(let i = 0 ; i<=10 ; i++){
-let photoAlt =(document.getElementsByTagName("img")[i].alt = "Elzero Logo");
-let photoSrc = (document.getElementsByTagName("img")[i].src = "https://lh3.googleusercontent.com/-rTLUaDW38Jg/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfkkhVHUMIJUzjMEaE_Qegj62iTkgQQ/photo.jpg?sz=260");
-}
+let popup = function () {
+    let myDiv = document.createElement("div");
+    myDiv.classList = "my-div";
+    myH2 = document.createElement("h2");
+    myH2.textContent = "Welcome";
+    myDiv.appendChild(myH2);
+    myP = document.createElement("p");
+    myP.textContent = "Welcome to Elzero Web School";
+    myDiv.appendChild(myP);
+    myButton = document.createElement("button");
+    myButton.textContent = "X";
+    myButton.addEventListener("click", function () {
+      myDiv.remove();
+    });
+    myDiv.appendChild(myButton);
+    setTimeout(function () {
+      document.body.appendChild(myDiv);
+    }, 5000);
+  };
+  popup();

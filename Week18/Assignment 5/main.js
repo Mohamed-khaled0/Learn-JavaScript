@@ -1,11 +1,15 @@
-let images = document.querySelectorAll("img");
+let counterDiv = document.getElementById('counter');
+let counterValue = parseInt(counterDiv.textContent);
 
-for(i = 0; i < images.length; i++){
-    if(images[i].hasAttribute("alt")){
-        images[i].alt = "old";
-    }else{
-        images[i].alt = "Elzero New";
-    }
-}
+let interval = setInterval(() => {
+  counterValue--;
+  counterDiv.textContent = counterValue;
 
+  if (counterValue === 5) {
+    window.open("https://elzero.org", "_blank", "width=300,height=300");
+  }
 
+  if (counterValue === 0) {
+    clearInterval(interval);
+  }
+}, 2);

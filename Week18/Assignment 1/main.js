@@ -1,13 +1,7 @@
-document.getElementById("elzero");
-document.getElementsByClassName("elemnet")[0];
-document.getElementsByTagName("div")[0];
-document.querySelector("#element");
-document.querySelectorAll(".element");
-document.querySelector("div");
-document.querySelector("[name='js']");
-document.querySelectorAll("#elzero")[0];
-document.querySelectorAll(".element")[0];
-document.querySelectorAll("div")[0];
-document.querySelectorAll("[name='js']")[0];
-document.getElementsByTagName("div").item(0);
-document.getElementsByClassName("element").item(0);
+let answer = prompt("Print Number From – To");
+let answerNums = answer.split("-");
+let start = Math.min(...answerNums);
+let end = Math.max(...answerNums);
+for (let i = start; i <= end; i++) {
+  console.log(i);
+}
