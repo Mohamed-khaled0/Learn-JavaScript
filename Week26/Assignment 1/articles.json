@@ -1,36 +1,52 @@
 [
     {
-        "id": 1,
-        "article": "1",
-        "author": "Mohamed",
-        "title": "HTML",
-        "description": "lorem"
+      "userId": 10,
+      "title": "Article Title Number 1",
+      "description": "Article Description Number 1"
     },
     {
-        "id": 2,
-        "article": "2",
-        "author": "Mohamed",
-        "title": "HTML",
-        "description": "lorem"
+      "userId": 5,
+      "title": "Article Title Number 2",
+      "description": "Article Description Number 2"
     },
     {
-        "id": 3,
-        "article": "3",
-        "author": "Mohamed",
-        "title": "HTML",
-        "description": "lorem"
+      "userId": 5,
+      "title": "Article Title Number 3",
+      "description": "Article Description Number 3"
     },
     {
-        "id": 4,
-        "article": "4",
-        "author": "Mohamed",
-        "title": "HTML",
-        "description": "lorem"
+      "userId": 5,
+      "title": "Article Title Number 4",
+      "description": "Article Description Number 4"
     },
     {
-        "id": 5,
-        "article": "5",
-        "author": "Mohamed",
-        "title": "HTML",
-        "description": "lorem"
-    }]
+      "userId": 5,
+      "title": "Article Title Number 5",
+      "description": "Article Description Number 5"
+    },
+    {
+      "userId": 5,
+      "title": "Article Title Number 6",
+      "description": "Article Description Number 6"
+    },
+    {
+      "userId": 25,
+      "title": "Article Title Number 7",
+      "description": "Article Description Number 7"
+    },
+    {
+      "userId": 25,
+      "title": "Article Title Number 8",
+      "description": "Article Description Number 8"
+    },
+    {
+      "userId": 15,
+      "title": "Article Title Number 9",
+      "description": "Article Description Number 9"
+    },
+    {
+      "userId": 15,
+      "title": "Article Title Number 10",
+      "description": "Article Description Number 10"
+    }
+  ]
